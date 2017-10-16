@@ -8,6 +8,10 @@ body{
     font-family: 'Overlock', Helvetica, sans-serif;
 }
 
+#wrapperMain{
+    width: 896px;
+}
+
 #header{
     height: 370px;
     position: relative;
@@ -52,6 +56,13 @@ body{
     font-weight: lighter;
 }
 
+.wcBackground{
+    background: url('../img/profes.jpg') no-repeat;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+}
+
 #mainTitle{
     background: url('../img/title.png') no-repeat;
     width: 497px;
@@ -59,7 +70,7 @@ body{
     color: #F4EED1;
     position: relative;
     padding-left: 25px;
-    top: -51px;
+    top: -53px;
     left: -30px;
 }
 
