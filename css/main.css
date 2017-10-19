@@ -27,20 +27,21 @@ body{
 #navMain{
     width: 507px;
     height: 33px;
-    background: url('../img/bannerNav.png') no-repeat; /* linear-gradient(to bottom, rgba(3,142,207,1) 4%,rgba(0,146,219,1) 8%,rgba(1,142,213,1) 13%,rgba(0,143,213,1) 17%,rgba(2,140,212,1) 21%,rgba(0,137,205,1) 29%,rgba(0,133,200,1) 42%,rgba(2,129,196,1) 46%,rgba(0,120,183,1) 75%,rgba(0,119,175,1) 79%,rgba(1,116,183,1) 83%,rgba(2,115,171,1) 88%,rgba(5,115,166,1) 92%,rgba(0,110,185,1) 96%,rgba(5,104,163,1) 100%); */
+    background: url(../img/bannerNav.png) no-repeat;
     position: absolute;
     top: 337px;
     left: 0px;
-    padding-left: 9px;
+    padding-left: 20px;
     border-radius: 0px 10px 10px 0px;
 }
 
 #navMain ul li{
     display: inline-block;
     position: relative;
-    padding-right: 10px;
+    padding-right: 50px;
     top: 4px;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
 
 #navMain a{
