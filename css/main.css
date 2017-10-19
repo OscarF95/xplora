@@ -61,14 +61,24 @@ body{
     font-weight: lighter;
 }
 
-/*.wcBackground{
-    background: url('../img/profes.jpg') no-repeat;
+.wcBackground{
+    background: url(../img/bgMaestros.jpg) no-repeat;
+    -webkit-mask-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
     position: relative;
-    bottom: -324px;
-    left: -30px;
-    height: 500px;
+    top: 462px;
+    right: 30px;
+    height: 361px;
     width: 895px;
-}*/
+}
+
+#profes{
+    position: relative;
+    width: 645px;
+    height: 467px;
+    background: url(../img/maestros.png);
+    top: -5px;
+    left: 221px;
+}
 
 #wrapperContent p{
     font-size: 17px;
@@ -107,6 +117,9 @@ h2{
     height: 80px;
     background: url('../img/reloj3horas.png') no-repeat;
     float: right;
+    position: relative;
+    right: 20px;
+    top: 5px;
 }
 
 #horas{
@@ -126,14 +139,27 @@ h2{
     letter-spacing: 1px;
     line-height: 10px;
     font-weight: lighter;
+    position: relative;
+    top: 70px;
+    left: 80px;
 }
+
 #horas span{
     font-size: .5em;
-
 }
 
 #cantidades{
     float: right;
+    font-size: 16px;
+    position: relative;
+    top: 70px;
+    left: 75px;
+}
+
+#precio{
+    position: relative;
+    top: 0px;
+    right: 0px;
 }
 
 #columnaDerecha{
@@ -154,6 +180,7 @@ h2{
     color: #fff;
     bottom: 50px;
     padding-left: 30px;
+    background: url('../img/separadorMaestros.png') no-repeat;
 }
 
 footer{
