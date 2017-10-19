@@ -61,6 +61,15 @@ body{
     font-weight: lighter;
 }
 
+/*.wcBackground{
+    background: url('../img/profes.jpg') no-repeat;
+    position: relative;
+    bottom: -324px;
+    left: -30px;
+    height: 500px;
+    width: 895px;
+}*/
+
 #wrapperContent p{
     font-size: 17px;
     text-align: justify;
@@ -93,7 +102,33 @@ h2{
     float: left;
 }
 
-#tourDesc{
+#reloj{
+    width: 81px;
+    height: 80px;
+    background: url('../img/reloj3horas.png') no-repeat;
+    float: right;
+}
+
+#horas{
+    width: 430px;
+    height: 123px;
+    position: relative;
+    background: url('../img/separadorHoras.png') no-repeat;
+    left: -30px;
+}
+
+#horas p{
+    text-align: center;
+    font-size: 25px;
+    float: right;
+    color: #F4EED1;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    line-height: 10px;
+    font-weight: lighter;
+}
+#horas span{
+    font-size: .5em;
 
 }
 
@@ -112,18 +147,10 @@ h2{
     text-align: left;
 }
 
-.wcBackground{
-    background: url('../img/profes.jpg') no-repeat;
-    position: relative;
-    bottom: 0px;
-    left: 0px;
-}
-
 #nota{
     position: relative;
     width: 896px;
     height: 50px;
-    background: url('../img/separadorMaestros.png') no-repeat;
     color: #fff;
     bottom: 50px;
     padding-left: 30px;
