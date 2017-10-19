@@ -87,14 +87,15 @@ body{
 }
 
 #mainTitle{
-    background: url('../img/title.png') no-repeat;
+    background: url(../img/title.png) no-repeat;
     width: 470px;
     height: 90px;
     color: #F4EED1;
     position: relative;
-    padding-left: 25px;
+    padding-left: 30px;
     top: -53px;
     left: -30px;
+    letter-spacing: 2px;
 }
 
 h2{
